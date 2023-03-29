@@ -1,12 +1,12 @@
 import tweepy
-import key
+import token_data
 import os
 
 # referencing the stored keys in separate file
-consumer_key= key.consumer_key
-consumer_secret= key.consumer_secret
-access_token= key.access_token
-access_token_secret= key.access_token_secret
+consumer_key= token_data.consumer_key
+consumer_secret= token_data.consumer_secret
+access_token= token_data.access_token
+access_token_secret= token_data.access_token_secret
 
 client = tweepy.Client(
    consumer_key= consumer_key, 
